@@ -1,0 +1,36 @@
+{
+  "name": "ticketbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y3S2/TicketBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Y3S2/TicketBackend/issues"
+  },
+  "homepage": "https://github.com/Y3S2/TicketBackend#readme"
+}
